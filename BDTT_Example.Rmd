@@ -7,7 +7,7 @@ output:
     keep_md: True
 ---
 
-# Beta Diversity Trought Time (BDTT) analysis #####
+# Beta Diversity Through Time (BDTT) analysis #####
 
 In this script, we provide: 
 

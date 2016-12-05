@@ -2,7 +2,7 @@
 Your friendly reviewer  
 December 5, 2016  
 
-# Beta Diversity Trought Time (BDTT) analysis #####
+# Beta Diversity Through Time (BDTT) analysis #####
 
 In this script, we provide: 
 
