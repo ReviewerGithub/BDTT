@@ -1,0 +1,16 @@
+new("big.matrix.descriptor"
+    , description = structure(list(sharedType = "FileBacked", filename = "branchPAtotal1", 
+    totalRows = 48L, totalCols = 32L, rowOffset = c(0, 48), colOffset = c(0, 
+    32), nrow = 48, ncol = 32, rowNames = c("37", "1", "2", "38", 
+    "3", "4", "40", "5", "6", "41", "7", "8", "44", "9", "10", 
+    "45", "11", "12", "47", "13", "14", "48", "15", "16", "52", 
+    "17", "18", "53", "19", "20", "55", "21", "22", "56", "23", 
+    "24", "59", "25", "26", "60", "27", "28", "62", "29", "30", 
+    "63", "31", "32"), colNames = c("sp1", "sp2", "sp3", "sp4", 
+    "sp5", "sp6", "sp7", "sp8", "sp9", "sp10", "sp11", "sp12", 
+    "sp13", "sp14", "sp15", "sp16", "sp17", "sp18", "sp19", "sp20", 
+    "sp21", "sp22", "sp23", "sp24", "sp25", "sp26", "sp27", "sp28", 
+    "sp29", "sp30", "sp31", "sp32"), type = "double", separated = FALSE), .Names = c("sharedType", 
+"filename", "totalRows", "totalCols", "rowOffset", "colOffset", 
+"nrow", "ncol", "rowNames", "colNames", "type", "separated"))
+)
