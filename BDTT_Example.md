@@ -1,11 +1,6 @@
----
-title: "BDTT"
-author: "Your friendly reviewer"
-date: "December 5, 2016"
-output: 
-  html_document:
-    keep_md: True
----
+# BDTT
+Your friendly reviewer  
+December 5, 2016  
 
 # Beta Diversity Trought Time (BDTT) analysis #####
 
@@ -39,7 +34,8 @@ NOTE 2 . Instead of using 'lapply' as in the following examples, one can use 'mc
 
 #Examples to test the analysis
 
-```{r,warning=F,message=F}
+
+```r
 # Libraries
 library(picante) #loaded to use the example dataset
 library(ape) # to get the Branch * sites matrices
@@ -65,7 +61,8 @@ ENvdi=as.matrix(dist(Env))
 
 NOTE: In the following, replace '~/yourPath/' with your own path to your appropriate directory.
 
-```{r}
+
+```r
 slices=seq(from=0,to=5, by=0.5) # first, time slices are defined
 
 a<-lapply(slices,GetBranchOcc,tree=TreeExmple,sitesp=SiteSpExmple,pathtoSaveBranchOcc="",bigmatrix=F)
@@ -76,13 +73,17 @@ colnames(Cors)=slices
 
 Finally, we can use a simple plot to represent the results:
 
-```{r}
+
+```r
 plot(slices,Cors[1,],type='b',xlab='Phylogenetic scale',ylab='R2')
 ```
 
+![](BDTT_Example_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+
 I left the rest for you to do, if desired. Set eval=T.
 
-```{r,eval=F}
+
+```r
 #-------------------------------------#
 #     2.2    Detailed test            #
 #-------------------------------------#
